@@ -1,0 +1,74 @@
+.maintenance-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .maintenance-page h1, .maintenance-page h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .maintenance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .maintenance-table th, .maintenance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .maintenance-table th {
+    background-color: #6c7ae0;
+    color: white;
+  }
+  
+  .maintenance-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .maintenance-table tr:hover {
+    background-color: #eef;
+  }
+  
+  .status-open {
+    background-color: #ffdd57;
+    color: #333;
+  }
+  
+  .status-in-progress {
+    background-color: #57c7ff;
+    color: #333;
+  }
+  
+  .status-resolved {
+    background-color: #57ff89;
+    color: #333;
+  }
+  
+  .status-closed {
+    background-color: #ff5757;
+    color: white;
+  }
+  
+  .add-request-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .add-request-btn:hover {
+    background-color: #45a049;
+  }
+  
